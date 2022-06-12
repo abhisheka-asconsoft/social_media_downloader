@@ -19,9 +19,8 @@ class SMDApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    SizeHelper.instance.context = context;
     return MaterialApp(
-      title: 'Social Media Downloader',
+      title: 'SM Downloader',
       theme: ThemeData(
         fontFamily: 'Raleway',
         primarySwatch: Colors.blue,
